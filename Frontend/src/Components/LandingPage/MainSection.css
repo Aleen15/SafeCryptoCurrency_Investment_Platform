@@ -1,0 +1,64 @@
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(90deg, #020c5a, #0008fa);
+  color: white;
+  height: 551px;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: white;
+  box-shadow: #020c5a 2px 2px 2px 2px;
+}
+
+.content p {
+  margin: 30px 2px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-green a {
+  text-decoration: none;
+  padding: 20px;
+
+
+}
+
+.btn-blue {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-blue a {
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+
+
+
+.mockups-img {
+  max-width: 100%;
+  height: 500px;
+  width: 700px;
+  box-shadow: white;
+  box-shadow: 0px 0px 10px 10px white;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 100px;
+}

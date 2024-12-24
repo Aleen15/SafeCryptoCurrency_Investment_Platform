@@ -1,0 +1,56 @@
+body {
+  margin: 0%;
+  padding: 0%
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  /* max-width: 100%; */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  /* color: #333; */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #020c5a;
+  padding: 10px 15px 10px 15px;
+}
+
+.nav-links li a:hover {
+  border: transparent;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #020c5a, #0008fa);
+  color: white;
+  box-shadow: 0 0 10px #020c5a;
+}
+
+.btn-get-started {
+  background: linear-gradient(90deg, #020c5a, #0008fa);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.btn-get-started:hover {
+  box-shadow: 0 0 10px #020c5a;
+  background: white;
+  color: #020c5a;
+}

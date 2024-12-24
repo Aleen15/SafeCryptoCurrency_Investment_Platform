@@ -1,0 +1,11 @@
+/* App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f0f2f5; /* Light background color */
+  margin: 0;
+}
